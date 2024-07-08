@@ -3,20 +3,18 @@
 
 # Call function into of other function and validate
 
+# high order function 
+
 def validate(func):
-    def valid(n1, n2):
-        if n1 < 0 or n2 < 0:
-            raise ValueError('n1 or n2 can not be negative')
-        
-        return func(n1,n2)
+    def valid(x, y):
+        if x < 0 or y < 0:
+            raise ValueError('ERROR')
+        return func(x, y)
     
     return valid
 
-
-@validate # <<<<
+@validate
 def sum(n1, n2):
-    return n1 + n2 
+    return n1 + n2
 
-print(sum(10, 2))
-
-
+print(sum(10, 10))
