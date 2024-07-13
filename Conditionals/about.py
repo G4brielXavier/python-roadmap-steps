@@ -2,6 +2,7 @@
 
 #if, else, elif
 n1 = 10
+
 if n1 > 5: 
     print('Yes')
 elif n1 < 5:
@@ -28,6 +29,8 @@ is_okay = False
 
 if is_okay is True:
     print('Ok')
+elif not is_okay is True:
+    print('Ok, no')
 
 if n1 > 10 and n2 < 4:
     print('Yes')

@@ -5,13 +5,13 @@
 
 
 # Implicit
-n = 5
+n = 5 
 
 # Explicit
-n_float = float(n)
-n_string = str(n)
-n_boolean = bool(n)
-n_integer = int(n)
+n_float = float(n) # 5.0
+n_string = str(n) # '5'
+n_boolean = bool(n) # True
+n_integer = int(n) # 5
 
 # Exceptions
 
@@ -22,10 +22,8 @@ n_integer = int(n)
 
 try:
     print(5 + '5') # Adding a variable of type integer with a variable of type string
-except Exception as err:
+except Exception as err: 
     print(f'Ops, ocorred a error - {err}')
-    
-    
 
 
 
