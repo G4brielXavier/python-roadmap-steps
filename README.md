@@ -7,7 +7,7 @@
 - List, Tuples, Sets and Dictionaries
 
 ## Datastructures and Algorithms
-- Arrays and Linked Lists
+- Arrays and Linked Lists 
 - Heaps, Stacks and Queues
 - Hash Tables
 - Binary Search Trees 

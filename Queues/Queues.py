@@ -3,21 +3,20 @@
 
 # ============ Practice Queues ============
 
-class Queue:
+class Queues:
     def __init__(self):
-        self.queues = []
+        self.queue = []
         
-    def __length__(self):
-        return len(self.queues)
+    def __len__(self):
+        return len(self.queue)
     
     def __push__(self, data):
-        self.queues.append(data)
+        self.queue.append(data)
         
     def __pop__(self):
-        if self.__length__() == 0:
-            return None
-        else:
-            self.queues.pop()
-            
+        if self.__len__():
+            return
+        
+        self.queue.pop()
             
 # :] - 'Test here' -------------------------------------------------

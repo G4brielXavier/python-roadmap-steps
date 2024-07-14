@@ -16,8 +16,8 @@ class Stacks:
     def __pop__(self):
         if self.__length__() == 0:
             return None
-        else:
-            self.items.pop()
+        
+        self.items.pop()
             
     def __display__(self):
         it = self.items
@@ -26,4 +26,4 @@ class Stacks:
             print(i)
             
 # :] - 'Test Here' -----------------------------------------------------------------------    
-            
+        

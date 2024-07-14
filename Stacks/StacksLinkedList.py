@@ -3,13 +3,22 @@
 
 # ============ Practice Stacks using Linked List ============
 
-from LinkedList.LinkedList import Node
-
-class Stacks:
+class Node:
+    def __init__(self, data):
+        self.data = data
+        self.next = None
+        
+class StackWithLinkedList:
     def __init__(self):
         self.head = None
         self.size = 0
         
+    def __len__(self):
+        return self.size
+    
+    def __is_empty__(self):
+        return self.size == 0
+    
     def __push__(self, data):
         new_node = Node(data)
         
@@ -22,12 +31,12 @@ class Stacks:
         self.size += 1
         
     def __pop__(self):
-        if self.size == 0:
-            return
+        if self.__is_empty__():
+            return None
         
-        value = self.head.data
+        data = self.head.data
         self.head = self.head.next
-        self.size += 1
-        return value
+        self.size -= 1
+        return data
     
 # :] - 'Test here' -------------------------------------------------------------------
