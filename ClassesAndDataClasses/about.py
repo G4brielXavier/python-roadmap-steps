@@ -4,7 +4,6 @@
 # ============ Classes and DataClasses ============
 
 #Creating a class normal of models cars
-
 print('Normal Class')
 class Info_Model:
     def __init__(self, brand, model, mph):
