@@ -20,16 +20,16 @@
 - Decorators
 - Lambdas
 
-# OOP
+### OOP
 - Classes
 - Inheritance
 - Methods and Dunder
 
-# Modules
+### Modules
 - Builtin
 - Custom
 
-# Package Managers
+### Package Managers
 - PyPI
 - Pip
 - Conda
