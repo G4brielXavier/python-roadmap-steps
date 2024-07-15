@@ -31,5 +31,3 @@ base_2 = 10
 while base_2 > 0:
     print(base_2)
     base_2 -= 1
-    
- 
