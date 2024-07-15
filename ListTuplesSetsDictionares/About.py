@@ -35,8 +35,3 @@ numbers_list[10] = 'Oi'
 peoples_names.items()
 peoples_names.values()
 peoples_names.keys
-
-
-
-
-

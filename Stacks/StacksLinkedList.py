@@ -38,5 +38,6 @@ class StackWithLinkedList:
         self.head = self.head.next
         self.size -= 1
         return data
-    
+
+
 # :] - 'Test here' -------------------------------------------------------------------

@@ -46,5 +46,6 @@ for i in range(1, 10+1):
 for i in range(1, 5):
     q.__dequeue__()
     
+    
 print(q.instorage.items)
 print(q.outstorage.items)

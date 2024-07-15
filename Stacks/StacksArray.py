@@ -41,4 +41,3 @@ class StacksWithArray:
         return self.arr[self.next_index]    
 
 #:] - 'Test here' ----------------------------------------------------
-

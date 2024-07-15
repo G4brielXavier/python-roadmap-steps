@@ -46,6 +46,7 @@ node18.left = node16
 
 result = search(root, 18)
 
+
 if result:
     print(f'Found the node with value {result.data} in BST.')
 else:

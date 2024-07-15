@@ -9,5 +9,3 @@ def pow(number, power):
 
 def chicken(eggs):
     return f'The chicked put {eggs} eggs.'
-
-

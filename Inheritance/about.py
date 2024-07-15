@@ -37,6 +37,7 @@ class Bombeiro(People):
 pol_1 = Policial('12', 'Capitão', 'Gabriel', '292.910.012-09', 180)
 bom_1 = Bombeiro('1', 'Major', 'Eduardo', '292.201.109-09', 182)
 
+
 print(f'Info Policial {pol_1.name}')
 print()
 pol_1.__show_info__()
