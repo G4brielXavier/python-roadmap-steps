@@ -1,4 +1,7 @@
-# IterTools - Library to control value whatever iterable
+#By Gabriel Xavier - Dotket :]
+#Learning Python - Backend
+
+# ============ IterTools ============
 
 import itertools as it
 

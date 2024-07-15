@@ -1,4 +1,7 @@
-#Type Castings and Exceptions
+#By Gabriel Xavier - Dotket :]
+#Learning Python - Backend
+
+# ============ Type Casting and Exceptions ============
 
 #----Type Castings
 # Conversions of values, changes of types

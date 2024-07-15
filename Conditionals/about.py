@@ -1,4 +1,7 @@
-#Conditionals
+#By Gabriel Xavier - Dotket :]
+#Learning Python - Backend
+
+# ============ Conditionals and Operators ============
 
 #if, else, elif
 n1 = 10

@@ -1,4 +1,7 @@
-# Lambdas
+#By Gabriel Xavier - Dotket :]
+#Learning Python - Backend
+
+# ============ Lambdas ============
 
 # normal function that sum two values
 

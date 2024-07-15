@@ -1,4 +1,7 @@
-# Functions
+#By Gabriel Xavier - Dotket :]
+#Learning Python - Backend
+
+# ============ Functions ============
 
 # funtions that calc power
 def pow(number, power):

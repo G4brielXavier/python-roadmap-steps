@@ -1,4 +1,7 @@
-#Variables and DataTypes
+#By Gabriel Xavier - Dotket :]
+#Learning Python - Backend
+
+# ============ Variables and DataTypes ============
 
 #Creating a variable of type int, float, str and bool
 integer_number = 10

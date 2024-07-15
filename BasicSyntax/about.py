@@ -1,4 +1,7 @@
-#Basic Syntax of Python
+#By Gabriel Xavier - Dotket :]
+#Learning Python - Backend
+
+# ============ Basic Syntax ============
 
 #Hello, World!
 print('Hello, World!')

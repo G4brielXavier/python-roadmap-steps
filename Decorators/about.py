@@ -1,4 +1,8 @@
-# Decorators
+#By Gabriel Xavier - Dotket :]
+#Learning Python - Backend
+
+# ============ Decorators ============
+
 # @decorators
 
 # Call function into of other function and validate

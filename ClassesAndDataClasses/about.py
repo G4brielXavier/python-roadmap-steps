@@ -1,4 +1,7 @@
-# Classes in Python
+#By Gabriel Xavier - Dotket :]
+#Learning Python - Backend
+
+# ============ Classes and DataClasses ============
 
 #Creating a class normal of models cars
 

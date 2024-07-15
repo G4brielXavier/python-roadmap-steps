@@ -1,4 +1,7 @@
-# Heaps
+#By Gabriel Xavier - Dotket :]
+#Learning Python - Backend
+
+# ============ Heaps ============
 
 #import the library
 import heapq as hp

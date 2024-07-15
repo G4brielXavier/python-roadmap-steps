@@ -1,4 +1,7 @@
-# Arrays
+#By Gabriel Xavier - Dotket :]
+#Learning Python - Backend
+
+# ============ Practice Arrays ============
 
 import numpy as np
 

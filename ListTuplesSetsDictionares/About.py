@@ -1,4 +1,7 @@
-# List, Tuples, Sets and Dictionaries
+#By Gabriel Xavier - Dotket :]
+#Learning Python - Backend
+
+# ============ Lists, Tuples, Sets and Dictionaries ============
 
 # List - Normal list
 numbers_list = [2, 6, 7, 2, 8.4, 9, 10, 22.2, 1, 2.1, 3.7, 4, 54]

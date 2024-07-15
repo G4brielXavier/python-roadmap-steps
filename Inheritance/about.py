@@ -1,4 +1,7 @@
-#Inheritance
+#By Gabriel Xavier - Dotket :]
+#Learning Python - Backend
+
+# ============ Inheritance ============
 
 class People:    
     def __init__(self, name, cpf, height):

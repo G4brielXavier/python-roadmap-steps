@@ -1,3 +1,8 @@
+#By Gabriel Xavier - Dotket :]
+#Learning Python - Backend
+
+# ============ RegEx - Regular Expressions ============
+
 import re
 from colorama import Fore
 
