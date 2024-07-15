@@ -3,51 +3,72 @@
 
 # ============ Search in binare tree ============
 
+#Pre-Order Transversal
+#In-Order Transversal
+#Pos-Order Transversal
+
 class TreeNode:
     def __init__(self, data):
         self.data = data
+        self.contents = None
         self.left = None
         self.right = None
+    
+    def __insert__(self, data, contents=None):
+        if data < self.data:
+            if self.left is None:
+                self.left = TreeNode(data)
+                self.contents = contents
+            else:
+                self.left.__insert__(data, contents)
+        else:
+            if self.right is None:
+                self.right = TreeNode(data)
+                self.contents = contents
+            else:
+                self.right.__insert__(data, contents)
         
-def search(node, target):
-    if node is None:
-        return None
-    
-    if node.data == target:
-        return node 
-    elif node.data > target:
-        return search(node.right, target)
-    elif node.data < target:
-        return search(node.left, target)
-    
-root = TreeNode(15)    
+    def __find__(self, data):
+        if data < self.data:
+            if self.left is None:
+                return False
+            else:
+                return self.left.__find__(data)
+        elif data > self.data:
+            if self.right is None:
+                return False
+            else:
+                return self.right.__find__(data)
+        else:
+            return self
+        
+    def inorder_transversal(self):
+        if self.left:
+            self.left.inorder_transversal()
+        print(self.data)
+        if self.right:
+            self.right.inorder_transversal()
+            
+    def preorder_transversal(self):
+        print(self.data)
+        if self.left:
+            self.left.preorder_transversal()
+        if self.right:
+            self.right.preorder_transversal()
+        
+    def posorder_transversal(self):
+        if self.left:
+            self.left.posorder_transversal()
+        if self.right:
+            self.right.posorder_transversal()
+        print(self.data)
+        
+root = TreeNode(10)
+root.__insert__(5, {'name':'Gabriel', 'age':18})
+root.__insert__(14, {'name':'Lucas', 'age':20})
+root.__insert__(17, {'name':'Mateus', 'age':19})
+root.__insert__(2, {'name':'Carlos', 'age':18})
+root.__insert__(1, {'name':'Eduardo', 'age':23})
+root.__insert__(15, {'name':'Roberto', 'age':18})
 
-node5 = TreeNode(5)
-node9 = TreeNode(9)
-node12 = TreeNode(12)
-node10 = TreeNode(10)
-node3 = TreeNode(3)
-node18 = TreeNode(18)
-node16 = TreeNode(16)
-
-root.left = node5 
-root.right = node9
-
-node5.left = node3
-node5.right = node9
-
-node9.left = node5
-node9.right = node10
-
-node16.left = node12
-node16.right = node18
-
-node18.left = node16
-
-result = search(root, 18)
-
-
-if result:
-    print(f'Found the node with value {result.data} in BST.')
-else:
-    print('The value not found in BST.')
+print(root.__find__(5).contents['name'])      
