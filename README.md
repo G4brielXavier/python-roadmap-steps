@@ -12,7 +12,7 @@
 - Hash Tables
 - Binary Search Trees 
 - Recursion
-- Sorting Algorithms
+- Sorting Algorithms ( Bubble Sort, )
 
 ## Advanced Topics
 - Iterators

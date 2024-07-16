@@ -3,23 +3,20 @@
 
 # ============ Bubble Sort ============
 
-from random import sample
+numbers = [2, 1, 7, 6, 8, 3, 4, 5, 6, 9]
 
-numbers = sample(range(100, 1000), 100)
-
-def bubble_sort(arr):
-    last_element = len(arr)
-    while last_element > 0:
-        i = 0
-        while i < last_element-1:
-            if arr[i] > arr[i+1]:
-                temp = arr[i]
-                arr[i] = arr[i+1]
-                arr[i+1] = temp
-                
-            i += 1
-        last_element -= 1
-
-
-# bubble_sort(numbers)
-# print(numbers)
+def bubbleSort(arr):
+    end_index = len(arr)
+    
+    while end_index > 0:
+        j = 0
+        while j < end_index - 1:
+            if arr[j] > arr[j + 1]:
+                temp = arr[j]
+                arr[j] = arr[j + 1]
+                arr[j + 1] = temp
+            j += 1
+        end_index -= 1
+        
+bubbleSort(numbers)
+print(numbers)
