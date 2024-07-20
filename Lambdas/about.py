@@ -3,18 +3,25 @@
 
 # ============ Lambdas ============
 
-# normal function that sum two values
+# Uma função normal que descobre a idade pela data de nascimento e o ano atual
 
-def sum(n1, n2):
-    return n1 + n2
+def validate_year(func):
+    def valid(born_year, current_year):
+        if current_year > 2024:
+            return False
+        
+        return func(born_year, current_year)
+    
+    return valid
 
-res = sum(10, 20)
+@validate_year
+def find_year(born_year, current_year):
+    return current_year - born_year
 
-print(f'Using normal function: {res}')
+myAge = find_year(2006, 2026)
 
 # function lambda that does same thing
 
-res_lbd = lambda n1, n2: n1 + n2
-
-
-print(f'Using lambda: {res_lbd(10, 20)}')
+find_year_lambda = lambda born_year, current_year : current_year - born_year
+myAge_lambda = find_year_lambda(2006, 2026)
+print(myAge_lambda)
