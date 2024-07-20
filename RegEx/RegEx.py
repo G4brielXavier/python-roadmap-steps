@@ -45,9 +45,3 @@ from colorama import Fore
 # print(Fore.GREEN + 'Formato identificado')
 # ====================================
 
-c_html = '''
-<p>Phrase 1</p> <p>Phrase 2</p> <p>Phrase 3</p> <div>Phrase 4</div>
-'''
-
-
-print(re.findall(r'<[pdiv]{1, 3}>', c_html))
