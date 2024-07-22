@@ -27,6 +27,7 @@ print(5 % 2) # Return Rest Division
 
 #Relationals
 # And Or not is
+
 n2 = 5
 is_okay = False
 

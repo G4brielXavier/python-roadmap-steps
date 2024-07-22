@@ -25,5 +25,9 @@ n_integer = int(n) # 5
 
 try:
     print(5 + '5') # Adding a variable of type integer with a variable of type string
-except Exception as err: 
-    print(f'Ops, ocorred a error - {err}')
+except: 
+    print(f'Ops, ocorred a error')
+    
+print(int('ff', 16))
+
+print('hello world'[2:4])
