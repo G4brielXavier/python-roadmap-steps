@@ -6,12 +6,12 @@
 #if, else, elif
 n1 = 10
 
-if n1 > 5: 
-    print('Yes')
-elif n1 < 5:
-    print('Ok')
+if n1 == 10:
+    print('yes')
+elif n1 < 2:
+    print('ok')
 else:
-    print('No')
+    print('no')
 
 #Operators
 
@@ -23,7 +23,7 @@ print(5 * 5) # Multiplication
 print(5 / 5) # Division
 print(5 // 5) # Integer Division
 print(5 ** 2) # Power
-print(5 % 2) # Return Rest Division
+print(5 % 2) # Module ( return rest of a division )
 
 #Relationals
 # And Or not is
