@@ -5,7 +5,7 @@
 
 #Creating a variable of type int, float, str and bool
 
-integer_number = 10
-floating_number = 5.5
-string_value = 'Information'
-boolean_value = True #of False
+integer_variable = 10 # int
+string_variable = 'Gabriel' # str
+floating_variable = 5.5 # float
+boolean_variable = True # bool
