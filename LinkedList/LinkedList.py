@@ -185,11 +185,3 @@ class LinkedList:
 
             
 # :] - 'Test Here' ------------------------------------------------------------------------------------------------------------
-
-myLL = LinkedList()
-
-for i in range(10):
-    myLL.__append__(i)
-    
-print(f'Quem está no índice 5 é o valor: {myLL.__get__(5)}')
-myLL.__search__(100)
